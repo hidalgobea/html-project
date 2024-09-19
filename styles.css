@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    color: #00698f;
+    font-size: 50px;
+  }
+  
+  p {
+    color: #333;
+    font-size: 25px;
+  }
+  
+  ul, ol {
+    color: #666;
+    font-size: 25px;
+  }
+  
+  li {
+    color: #666;
+    font-size: 25px;
+  }
+  
+  img {
+    width: 700px;
+    height: 450px;
+    border: 1px solid #ccc;
+  }
+  
+  a {
+    color: #00698f;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #003366;
+  }
+  
+  hr {
+    border: 1px solid #ccc;
+    height: 1px;
+    width: 80%;
+    margin: 20px auto;
+  }
