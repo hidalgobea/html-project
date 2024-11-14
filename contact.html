@@ -3,11 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Take Care of Yourself</title>
+  <title>My Profile</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <style>
-      
       .button {
           display: inline-block;
           margin: 20px 10px;
@@ -26,11 +25,6 @@
           padding: 20px;
           background-color: #f5f5f5;
           text-align: center;
-      }
-
-      img {
-          max-width: 100%;
-          height: auto;
       }
 
       .content {
@@ -60,33 +54,58 @@
           font-weight: bold;
       }
 
+      .profile-photo {
+          border-radius: 50%;
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+          margin: 0 auto 20px;
+          display: block;
+      }
+
+      .section-title {
+          font-size: 1.5em;
+          margin-top: 20px;
+          color: #4CAF50;
+      }
+
+      ul.skills, ul.hobbies {
+          list-style-type: none;
+          padding: 0;
+      }
+
+      ul.skills li, ul.hobbies li {
+          background-color: #e0e0e0;
+          margin: 5px 0;
+          padding: 10px;
+          border-radius: 5px;
+      }
   </style>
 </head>
 <body>
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">Mental Health Matters</a></li>
-        <li><a href="page2.html">Identify Your Triggers</a></li>
-        <li><a href="page3.html">Build a Support Network</a></li>
-        <li><a href="page4.html">Take Care of Yourself</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Myself</a></li>
+        <li><a href="profile.html">My Profile</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
-  
+
   <div class="content">
-    <h1>Take Care of Yourself</h1>
-    <img src="TAKE CARE.PNG" alt="Take Care Image">
-    <p>Taking care of your physical health is essential for maintaining good mental health. Here are some ways to take care of yourself:</p>
-    <ul>
-      <li>Eat a healthy diet</li>
-      <li>Exercise regularly</li>
-      <li>Get enough sleep</li>
-      <li>Practice relaxation techniques</li>
-      <li>Engage in activities you enjoy</li>
-    </ul>
-    <a href="page3.html" class="button">Previous Page</a>
-    <a href="page5.html" class="button">Next Page</a>
+    <h1>My Profile</h1>
+    <img src="profile-photo.jpg" alt="Profile photo" class="profile-photo">
+
+   
+
+    <h2 class="section-title">Contact Information</h2>
+    <p>bh0675756@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/myprofile" target="_blank">linkedin.com/in/myprofile</a></p>
+
+    <a href="about.html" class="button">Previous Page</a>
+    <a href="contact.html" class="button">Next Page</a>
   </div>
 </body>
 </html>

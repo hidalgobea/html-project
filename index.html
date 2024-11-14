@@ -1,17 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health Matters</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <style>
+      .button {
+          display: inline-block;
+          margin: 20px 10px;
+          padding: 10px 20px;
+          background-color: #4CAF50;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: bold;
+      }
+
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 20px;
+          background-color: #f5f5f5;
+          text-align: center;
+      }
+
+      /* Center the image */
+      .content img {
+          max-width: 80%;  /* Limit the size of the image */
+          height: auto;
+          display: block;  /* Make the image a block element */
+          margin-left: auto;
+          margin-right: auto; /* Center the image horizontally */
+      }
+
+      .content {
+          max-width: 800px;
+          margin: auto;
+          text-align: left;
+      }
+
+      header {
+          background-color: #4CAF50;
+          color: white;
+          padding: 1em 0;
+      }
+
+      nav ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+      }
+
+      nav a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+      }
+  </style>
 </head>
 <body>
-  <Header>
+  <header>
     <nav>
       <ul>
         <li><a href="index.html">Mental Health Matters</a></li>
@@ -20,17 +73,13 @@
         <li><a href="page4.html">Take Care of Yourself</a></li>
       </ul>
     </nav>
-  </Header>
+  </header>
+  
+  <div class="content">
     <h1>Mental Health Matters</h1>
     <img src="mental.jpg" alt="Mental Health Image">
-    <p>Mental health is just as important as physical health. Taking care of your mental health can help you feel better, think more clearly, and enjoy life more. Here are some ways to manage your mental health:</p>
-    <ul>
-      <li>Exercise regularly: Exercise can help reduce stress and anxiety, improve mood, and increase energy levels.</li>
-      <li>Eat a healthy diet: Eating a balanced diet that includes plenty of fruits, vegetables, whole grains, and lean protein can help support mental health.</li>
-      <li>Get enough sleep: Getting enough sleep is essential for mental health. Aim for 7-9 hours of sleep per night.</li>
-      <li>Practice relaxation techniques: Techniques like deep breathing, meditation, and yoga can help reduce stress and anxiety.</li>
-      <li>Connect with others: Building strong relationships with friends and family can help support mental health.</li>
-    </ul> 
-    <p>Remember, taking care of your mental health is an ongoing process. By making small changes to your daily habits and seeking support when needed, you can improve your mental health and well-being.</p>   
+    <p>Mental health is just as important as physical health. Taking care of your mental health can help you feel better, think more clearly, and enjoy life more.</p>
+    <a href="page2.html" class="button">Next Page</a>
+  </div>
 </body>
 </html>
